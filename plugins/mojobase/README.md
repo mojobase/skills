@@ -6,7 +6,7 @@ chat, calendar, tasks, files, Handbook, customers and numbers live together.
 | Skill | Ask Claude | What you get |
 | --- | --- | --- |
 | `morning-run-through` | "What needs me today?" | Today's meetings, tasks due, who's waiting on a reply and who's late paying, with the replies already drafted |
-| `chase-who-owes-you` | "Who owes us money? Chase them." | One polite reminder per late customer, with the payment link, unless someone agreed to wait |
+| `chase-who-owes-you` | "Who owes us money? Chase them." | One polite reminder per late customer, with the payment link, unless someone agreed to wait (Stripe invoices in US dollars, connected in Mojobase) |
 | `prepare-for-a-call` | "Prep me for my call with Leo." | A one-page brief from the mail, notes, files, tasks and invoices behind that meeting |
 | `week-review` | "How did the week go?" | What got done, what's slipping, the numbers, and next week's three priorities as suggested tasks |
 | `business-profile` | "Tell Mojobase about my business." | Your Handbook's business profile filled in from what Claude already knows, for every agent to read first |
@@ -38,9 +38,10 @@ Then ask, or run one by name: `/mojobase:morning-run-through`.
 ## What it sends and changes
 
 The skills send nothing themselves. They tell Claude which Mojobase tools to use, through the connection you made,
-acting as you with your permissions. They read your Mojobase and write only what waits for you: email drafts you
-send yourself, reminder notes on invoices, tasks and documents as suggestions, and notes on a meeting when you ask.
-They never send email, schedule it or delete anything.
+acting as you with your permissions. Every email they write is a draft you send yourself; they never send or schedule
+email, and never delete anything. Tasks and documents follow your own settings in Mojobase: suggestions you accept,
+unless you set that kind of change to Auto. Notes on an invoice, and on a meeting when you ask, are saved as they're
+written.
 
 ## License
 

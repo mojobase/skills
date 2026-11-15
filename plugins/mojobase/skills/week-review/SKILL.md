@@ -49,4 +49,5 @@ Numbers: <sales, orders, ad spend, against the week before>
 Next week's three: <what, why, by when>
 ```
 
-Tell the person the three tasks are waiting in Tasks and the document in Files for them to accept.
+Tell the person what each tool answered: a task or document with `status: "waiting"` (or `pending`) waits for
+them to accept it in Tasks or Files; one that was added at once is already there.
