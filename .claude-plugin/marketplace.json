@@ -1,0 +1,12 @@
+{
+  "name": "mojobase",
+  "description": "Mojobase's skills for Claude",
+  "owner": { "name": "Mojobase", "url": "https://mojobase.ai" },
+  "plugins": [
+    {
+      "name": "mojobase",
+      "source": "./plugins/mojobase",
+      "description": "Skills that teach Claude real jobs in your business through Mojobase."
+    }
+  ]
+}
