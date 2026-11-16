@@ -31,9 +31,7 @@ then add Mojobase. Your skills appear under Customize → Skills; type `/` in a 
 
 Then ask, or run one by name: `/mojobase:morning-run-through`.
 
-<!-- COWORK: switch on once Cowork is confirmed to reach Mojobase's connector (TODO.md, the Cowork check).
 **Claude Cowork:** a plugin you add in Customize is on your account, so Cowork loads these skills in your next task.
--->
 
 ## What it sends and changes
 
