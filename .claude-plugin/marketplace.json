@@ -6,7 +6,7 @@
     {
       "name": "mojobase",
       "source": "./plugins/mojobase",
-      "description": "The Mojobase connector and skills that teach Claude real jobs in your business through it."
+      "description": "Let Claude run real jobs in your business, with the Mojobase connector."
     }
   ]
 }
