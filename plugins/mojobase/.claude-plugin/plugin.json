@@ -1,10 +1,11 @@
 {
   "name": "mojobase",
   "displayName": "Mojobase",
-  "version": "1.0.1",
-  "description": "Skills that teach Claude real jobs in your business through Mojobase: the morning run-through, chasing who owes you, preparing for a call, the week's review and your business profile.",
+  "version": "1.1.0",
+  "description": "The Mojobase connector and skills that teach Claude real jobs in your business through it: the morning run-through, chasing who owes you, preparing for a call, the week's review and your business profile.",
   "author": { "name": "Mojobase", "url": "https://mojobase.ai" },
   "homepage": "https://mojobase.ai/agents/claude-skills",
+  "privacyPolicyUrl": "https://mojobase.ai/privacy",
   "license": "MIT",
   "keywords": ["business", "email", "calendar", "tasks", "invoices", "crm"]
 }

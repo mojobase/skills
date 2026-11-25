@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mojobase": {
+      "type": "http",
+      "url": "https://app.mojobase.ai/mcp"
+    }
+  }
+}

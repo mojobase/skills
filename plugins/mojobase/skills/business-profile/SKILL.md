@@ -1,6 +1,6 @@
 ---
 name: business-profile
-description: Fill in or update the business profile in Mojobase's Handbook (what the business sells, prices, customers, tone of voice, policies, people) from what Claude already knows about the business in this conversation, project or files. Every agent and every one of Mojobase's own runs reads it first. Use when someone sets up Mojobase, says "tell Mojobase about my business", or asks to update the business profile, prices, tone or policies there.
+description: Fill in or update the business profile in Mojobase's Handbook (what the business sells, prices, customers, tone of voice, policies, people) from what the person has told Claude or shared in this conversation. Every agent and every one of Mojobase's own runs reads it first. Use when someone sets up Mojobase, says "tell Mojobase about my business", or asks to update the business profile, prices, tone or policies there.
 ---
 
 # Business profile
@@ -17,8 +17,8 @@ knows into Mojobase, and invents nothing.
 1. **Read what's there.** `knowledge_business_profile`. It gives the profile's text, its `version`, its `status`
    (Approved, Draft, or Changed by AI since approval) and `fill_ins_left`. If it isn't set up, it gives the template
    to start from.
-2. **Gather what you already know.** This conversation, the project's instructions and files, and anything the
-   person pasted or uploaded. Only facts you actually have: prices exactly as written, people's names and roles as
+2. **Gather what you already know.** What the person has told you or shared in this conversation. Only facts
+   you actually have: prices exactly as written, people's names and roles as
    given, policies in their own words.
 3. **Ask only for what matters most.** If what's missing is something every reply depends on (what they sell, their
    prices, their tone), ask the person for up to three of those. Everything else stays a fill-in.

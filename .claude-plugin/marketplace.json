@@ -6,7 +6,7 @@
     {
       "name": "mojobase",
       "source": "./plugins/mojobase",
-      "description": "Skills that teach Claude real jobs in your business through Mojobase."
+      "description": "The Mojobase connector and skills that teach Claude real jobs in your business through it."
     }
   ]
 }
